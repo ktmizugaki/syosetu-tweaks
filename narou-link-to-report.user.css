@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name           narou-link-to-report
+@namespace      ktmizugaki
+@author         teru
+@description    Add link to novelreport for each line
+@version        1.0.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://ncode.syosetu.com/n"), url-prefix("https://novelcom.syosetu.com/novelreport/input/ncode/") {
+
+/* ジャンプ先の行がヘッダで隠れないようにします。 */
+html {
+  scroll-padding-top: 70px;
+}
+
+/* ジャンプ先の行を目立たせるために背景に色をつけます。 */
+p[id^=L]:target {
+  background-color: #ffd;
+}
+
+/* 誤字報告リンクの位置決めに必要です。 */
+.p-novel__text p[id^=L] {
+  position: relative;
+}
+
+a.xsk1esho-reportlink {
+  display: block !important;
+  position: absolute;
+  user-select: none;
+  padding: 8px;
+
+  /* 誤字報告リンクの位置です。 */
+  top: -8px;
+  right: -2.5em;
+
+  /* 誤字報告リンクの見た目です。 */
+  font-size: 0.66rem;
+  text-decoration: none;
+}
+
+}

@@ -32,3 +32,16 @@ PCでの動作のみ検証しています。携帯端末での動作はサポー
 * スタイル: [narou-squeeze-blank.user.css](/../../raw/trunk/narou-squeeze-blank.user.css)
 
 スタイルには、なろうの行間を広げる設定も追加してあります。
+
+## narou-link-to-report
+
+小説家になろう本文の各行に、誤字報告ページのその行へのリンクを追加します。
+
+誤字を見つけた際に、「一番下へスクロールしての誤字報告リンクへ飛んでから、誤字のある行を探す」手間が省けます。
+
+* スクリプト: [narou-link-to-report.user.js](/../../raw/trunk/narou-link-to-report.user.js)
+* スタイル: [narou-link-to-report.user.css](/../../raw/trunk/narou-link-to-report.user.css)
+
+ログイン中のみリンクを表示します。
+
+空行・序文・後書きは誤字報告対象外のようなのでリンク作成の対象外です。
