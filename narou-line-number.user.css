@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           narou-line-number
+@namespace      ktmizugaki
+@author         teru
+@description    Show line number
+@version        1.0.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://ncode.syosetu.com/n"), url-prefix("https://novelcom.syosetu.com/novelreport/input/ncode/") {
+
+/* 行番号の位置決めに必要です。 */
+.p-novel__text p[id^=L] {
+  position: relative;
+}
+
+/* 行番号を before 擬似要素に表示します。 */
+p[id^=L]:not([data-blank])::before, p.fixed[id^=L]::before {
+  position: absolute;
+  content: attr(id);
+
+  /* 行番号の位置です。
+   * left は、「変更あり」マークの表示位置にも影響します。 */
+  padding-top: 0.05em;
+  left: -44px;
+
+  /* 行番号の見た目です */
+  color: lightgray;
+}
+
+/* 本文ページでの見た目です。 */
+.p-novel__text p[id^=L]::before {
+  font-size: 0.8em;
+}
+
+/* 誤字報告ページでの見た目です。 */
+.p-report-main p[id^=L]::before {
+  /* 枠が行番号にかぶって視認性が悪いので、背景を白塗りしています。
+   * width は、「変更あり」マークの表示位置にも影響します。 */
+  width: 34px;
+  background: #fff;
+}
+
+/* 誤字報告ページの「変更あり」マークも before 擬似要素を使用しており、
+ * 本スタイルにより見た目が変わるので、スタイルを調整して再現しています。
+ * left+width が -10px になると元の位置になります。 */
+p.fixed[id^=L]::before {
+  border-right: 5px solid var(--color-novelcom-report-fixed-mark);
+}
+
+/**** 更新情報 ****
+ * v1.0.0 (2026/06/27)
+ 初版
+ ******************/
+
+}
