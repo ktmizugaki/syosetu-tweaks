@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           narou-squeeze-blank
+@namespace      ktmizugaki
+@author         teru
+@description    Squeeze blank lines
+@version        1.0.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://ncode.syosetu.com/n") {
+
+/* 空行を非表示にします。 */
+.hhytmr0h-squeeze-blank p.hhytmr0h-blank[id^=L] {
+  display: none;
+}
+/* 連続する空行の場合は、1行だけ空行を表示します。 */
+.hhytmr0h-squeeze-blank p.hhytmr0h-blank-2[id^=L] {
+  display: block;
+}
+
+/* 行間を広げます。 */
+.p-novel__text p[id^=L] {
+  line-height: 2.0em;
+  margin-bottom: 0.3em;
+}
+
+}

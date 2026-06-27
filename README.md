@@ -21,3 +21,14 @@ PCでの動作のみ検証しています。携帯端末での動作はサポー
 
 ここで配布しているスクリプトでは、スタイルを無効にすることで追加したHTMLが見えなくなるよう配慮しています。
 一時的にスクリプトの効果を無効化したい場合に活用ください。
+
+## narou-squeeze-blank
+
+小説家になろう本文の、多すぎる空行を削除します。
+
+空行が45%を超えている場合を、多すぎるとしています。
+
+* スクリプト: [narou-squeeze-blank.user.js](/../../raw/trunk/narou-squeeze-blank.user.js)
+* スタイル: [narou-squeeze-blank.user.css](/../../raw/trunk/narou-squeeze-blank.user.css)
+
+スタイルには、なろうの行間を広げる設定も追加してあります。
