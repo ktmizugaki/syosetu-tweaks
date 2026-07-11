@@ -64,3 +64,10 @@ PCでの動作のみ検証しています。携帯端末での動作はサポー
 
 * スクリプト: [narou-subtitle-in-window.user.js](/../../raw/trunk/narou-subtitle-in-window.user.js)
 * スタイル: なし
+
+## syosetu-keyboard-navi
+
+左と右の方向キー・hキーlキーで一頁戻ったり進んだりします。
+
+* スクリプト: [syosetu-keyboard-navi.user.js](/../../raw/trunk/syosetu-keyboard-navi.user.js)
+* スタイル: なし
