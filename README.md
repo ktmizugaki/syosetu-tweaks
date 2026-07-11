@@ -39,6 +39,10 @@ PCでの動作のみ検証しています。携帯端末での動作はサポー
 
 誤字を見つけた際に、「一番下へスクロールしての誤字報告リンクへ飛んでから、誤字のある行を探す」手間が省けます。
 
+また、作者側の誤字報告の画面に、「自分で誤字報告」「エピソードを編集」ボタンを追加します。
+
+提案された変更とは違う直し方をしたい場合に使います。
+
 * スクリプト: [narou-link-to-report.user.js](/../../raw/trunk/narou-link-to-report.user.js)
 * スタイル: [narou-link-to-report.user.css](/../../raw/trunk/narou-link-to-report.user.css)
 
