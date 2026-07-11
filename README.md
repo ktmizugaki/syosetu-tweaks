@@ -57,3 +57,10 @@ PCでの動作のみ検証しています。携帯端末での動作はサポー
 
 * スクリプト: なし
 * スタイル: [narou-line-number.user.css](/../../raw/trunk/narou-line-number.user.css)
+
+## narou-subtitle-in-window
+
+ウィンドウタイトルを、エピソードタイトルを先にしたものに変更します。
+
+* スクリプト: [narou-subtitle-in-window.user.js](/../../raw/trunk/narou-subtitle-in-window.user.js)
+* スタイル: なし
