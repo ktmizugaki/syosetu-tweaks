@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           narou-highlight-mistakable-letters
+@namespace      ktmizugaki
+@author         teru
+@description    Highlight mistakable letters
+@version        1.0.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://ncode.syosetu.com/n"), url-prefix("https://syosetu.com/novelpreview/top/from/draftepisode/ncode/"), url-prefix("https://syosetu.com/draftepisode/view/draftepisodeid/") {
+
+.bnwyeqhc-hiragana {
+  /* ひらがなの装飾です。 */
+  text-decoration: overline dotted #ddd;
+  text-decoration-thickness: 2px;
+}
+.bnwyeqhc-katakana {
+  /* カタカナの装飾です。 */
+  text-decoration: underline dotted #ddd;
+  text-decoration-thickness: 2px;
+}
+.bnwyeqhc-kansuji {
+  /* 漢数字の装飾です。 */
+  text-decoration: underline solid #d6d;
+  text-decoration-thickness: 1px;
+}
+.bnwyeqhc-cyrillic {
+  /* キリル文字の装飾です。 */
+  background-color: #ddd;
+}
+.bnwyeqhc-onbiki {
+  /* 音引きの装飾です。 */
+  background-color: #ffd;
+}
+.bnwyeqhc-en-dash {
+  /* enダッシュの装飾です。 */
+  background-color: #fec;
+}
+.bnwyeqhc-em-dash {
+  /* emダッシュの装飾です。 */
+  background-color: #fec;
+}
+.bnwyeqhc-horibar {
+  /* 水平線の装飾です。 */
+  background-color: #fec;
+}
+.bnwyeqhc-border {
+  /* 罫線の装飾です。 */
+  background-color: #fdf;
+}
+
+}

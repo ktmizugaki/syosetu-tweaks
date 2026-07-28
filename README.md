@@ -22,6 +22,34 @@ PCでの動作のみ検証しています。携帯端末での動作はサポー
 ここで配布しているスクリプトでは、スタイルを無効にすることで追加したHTMLが見えなくなるよう配慮しています。
 一時的にスクリプトの効果を無効化したい場合に活用ください。
 
+## narou-highlight-mistakable-letters
+
+カタカナの「ニ」と漢数字の「二」、音引き「ー」とダッシュ「―」などの紛らわしい文字を装飾して目立たせて、誤字を見つけやすくします。
+
+読者に公開されたページと執筆時のプレビューページで動作しますので、執筆者の方もご利用できます。
+
+* スクリプト: [narou-highlight-mistakable-letters.user.js](/../../raw/trunk/narou-highlight-mistakable-letters.user.js)
+* スタイル: [narou-highlight-mistakable-letters.user.css](/../../raw/trunk/narou-highlight-mistakable-letters.user.css)
+
+文字の装飾を変えたい場合は、各々スタイルを変更してください。
+
+ダッシュ系の装飾について、初期設定は同じにしていますが別々に設定できます。
+
+装飾対象:
+* ひらがなの「へ」
+* カタカナの「ニ」
+* カタカナの「ヘ」
+* 漢数字の「二」
+* キリル文字の「М」「м」
+* 音引き
+* enダッシュ
+* emダッシュ
+* 水平線
+* 罫線
+
+テストページ:
+* https://ncode.syosetu.com/n2343mg/9/
+
 ## narou-squeeze-blank
 
 小説家になろう本文の、多すぎる空行を削除します。
