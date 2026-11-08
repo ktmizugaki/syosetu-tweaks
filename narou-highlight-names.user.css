@@ -1,0 +1,81 @@
+/* ==UserStyle==
+@name           narou-highlight-names
+@namespace      ktmizugaki
+@author         teru
+@description    Highlight registered names
+@version        1.0.0
+==/UserStyle== */
+
+@-moz-document url-prefix("https://ncode.syosetu.com/n"), url-prefix("https://syosetu.com/novelpreview/top/from/"), url-prefix("https://syosetu.com/draftepisode/view/draftepisodeid/"), url-prefix("https://syosetu.com/usernoveldatamanage/top/ncode/") {
+
+.toiavaoq-category1 {
+  /* 分類1の見た目です。 */
+  text-decoration: underline solid #0c0;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category2 {
+  /* 分類2の見た目です。 */
+  text-decoration: underline solid #8cf;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category3 {
+  /* 分類3の見た目です。 */
+  text-decoration: underline solid #f86;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category4 {
+  /* 分類4の見た目です。 */
+  text-decoration: underline solid #66f;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category5 {
+  /* 分類5の見た目です。 */
+  text-decoration: underline solid #faf;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category6 {
+  /* 分類6の見た目です。 */
+  text-decoration: underline dashed #0c0;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category7 {
+  /* 分類7の見た目です。 */
+  text-decoration: underline dashed #8cf;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category8 {
+  /* 分類8の見た目です。 */
+  text-decoration: underline dashed #f86;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category9 {
+  /* 分類9の見た目です。 */
+  text-decoration: underline dashed #66f;
+  text-decoration-thickness: 2px;
+}
+
+.toiavaoq-category10 {
+  /* 分類10の見た目です。 */
+  text-decoration: underline dashed #faf;
+  text-decoration-thickness: 2px;
+}
+
+/* ポップアップ表示 */
+.toiavaoq-popup {
+  display: block;
+}
+
+/* 名前管理ボタン */
+#toiavaoq-open_names_dialog {
+  display: block;
+}
+
+}
