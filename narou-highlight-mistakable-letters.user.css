@@ -3,10 +3,10 @@
 @namespace      ktmizugaki
 @author         teru
 @description    Highlight mistakable letters
-@version        1.0.0
+@version        1.0.1
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://ncode.syosetu.com/n"), url-prefix("https://syosetu.com/novelpreview/top/from/draftepisode/ncode/"), url-prefix("https://syosetu.com/draftepisode/view/draftepisodeid/") {
+@-moz-document url-prefix("https://ncode.syosetu.com/n"), url-prefix("https://syosetu.com/novelpreview/top/from/"), url-prefix("https://syosetu.com/draftepisode/view/draftepisodeid/"), url-prefix("https://syosetu.com/usernoveldatamanage/top/ncode/") {
 
 .bnwyeqhc-hiragana {
   /* ひらがなの装飾です。 */

@@ -3,10 +3,11 @@
 // @namespace   ktmizugaki
 // @author      teru
 // @description Highlight mistakable letters
-// @version     1.0.0
+// @version     1.0.1
 // @match       https://ncode.syosetu.com/n*
-// @match       https://syosetu.com/novelpreview/top/from/draftepisode/ncode/*
+// @match       https://syosetu.com/novelpreview/top/from/*
 // @match       https://syosetu.com/draftepisode/view/draftepisodeid/*
+// @match       https://syosetu.com/usernoveldatamanage/top/ncode/*
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @noframes
@@ -91,6 +92,9 @@
   highlightWords(pattern, classNames, titles);
 
   /**** 更新情報 ****
+   * v1.0.1 (2026/11/08)
+   投稿済みのエピソード詳細画面を対象URLに追加
+
    * v1.0.0 (2026/07/28)
    初版
    ******************/
